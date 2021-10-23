@@ -1,2 +1,2 @@
-# CSS-My-Site
+# Blog.BharathAnumala.io
 Personal blog
