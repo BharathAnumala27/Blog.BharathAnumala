@@ -3,11 +3,13 @@
   position: relative;
   padding-top: 100px;
 
+
 }
 body{
   text-align: center;
   margin: 0 auto 0 auto;
   position: relative;
+  color: #40514E;
 
 }
 h1
@@ -22,6 +24,7 @@ h2{
   font-size: 2.5rem;
   margin-top: 0px;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'montserrat', sans-serif;
@@ -30,7 +33,13 @@ h3{
 p
 {
   margin: 0;
-
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 .subtitle{
   font-weight: normal;
@@ -46,19 +55,78 @@ p
   left: 300px;
 }
 .middle-container{
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.intro{
+  padding-bottom: 30px;
+  margin: auto;
+  line-height: 2;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px 0 30px;
+  line-height: 3;
 }
 .profilepic{
   width: 10%;
-  height: 10%;
+
 }
-.computer{
-  width: 20%;
-  height: 20%;
+.skill-row{
+  width: 40%;
+  margin: 40px auto 40px auto;
+  text-align: left;
+  line-height: 2;
 }
 .chillies{
-  height: 20%;
-  width: 20%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.computer{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 a{
   color: #11999E;
+  font-family: 'montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copy-right{
+  color: #EAF6F6;
+}
+.btn {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'montserrat', sans-serif;
+   font-size: 17px;
+   font-weight: 200;
+   padding: 10px;
+   background-color: #11cdd4;
+   -webkit-box-shadow: inset 1px 1px 20px 0 #66BFBF;
+   -moz-box-shadow: inset 1px 1px 20px 0 #66BFBF;
+   box-shadow: inset 1px 1px 20px 0 #66BFBF;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px auto 0px auto;
+}
+
+.btn:hover {
+   background: #30e3cb;
+   border: solid #66BFBF 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
 }
